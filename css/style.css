@@ -26,6 +26,7 @@ li {
 
 }
 
-.jumbotron {
+.jumbotron,
+.about {
     background-color: aquamarine;
 }
