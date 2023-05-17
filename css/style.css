@@ -13,5 +13,17 @@ li {
 }
 
 .row {
-    border: 1px dashed greenyellow;
+    border: 1px dashed blue;
 }
+
+.col,
+.col-10 {
+    border: 1px dashed blue;
+
+}
+
+.jumbotron {
+    background-color: aquamarine;
+}
+
+.container {}
