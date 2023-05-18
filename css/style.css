@@ -28,7 +28,7 @@ li {
 .col-md-6,
 .col-lg-4 {
     border: 1px dashed blue;
-    height: 100px;
+    min-height: 100px;
 }
 
 
