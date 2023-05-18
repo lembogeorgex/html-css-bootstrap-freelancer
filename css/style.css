@@ -40,3 +40,10 @@ li {
 footer {
     background-color: mediumslateblue;
 }
+
+
+.my-border-space {
+    display: inline-block;
+    width: 200px;
+    border: 2px solid white;
+}
