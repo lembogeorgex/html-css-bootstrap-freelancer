@@ -47,3 +47,9 @@ footer {
     width: 200px;
     border: 2px solid white;
 }
+
+@media screen and (max-width: 480px) {
+    .my-border-space {
+        width: 80px;
+    }
+}
