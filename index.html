@@ -175,9 +175,61 @@
     <div class="contacts">
       <div class="container">
         <div class="row">
-          <div class="col-12">CONTACT ME</div>
-          <div class="col-12">borders&star</div>
-          <div class="col-12">FORM</div>
+          <div class="col-12 gy-3 fw-bolder fs-3 text-center">CONTACT ME</div>
+          <div class="col-12">
+            <div class="col-12 text-center">
+              <span class="my-dark-border-space align-middle"></span>
+              <span><i class="fa-solid fa-star fa-2x align-middle"></i></span>
+              <span class="my-dark-border-space"></span>
+            </div>
+          </div>
+          <div class="col-12 gy-3">
+            <div class="container">
+              <form class="mx-auto">
+                <div class="mb-3">
+                  <input
+                    type="name"
+                    class="form-control is-valid border-0 border-bottom rounded-0"
+                    placeholder="Name"
+                  />
+                  <div class="valid-feedback">Looks good!</div>
+                </div>
+
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control is-invalid border-0 border-bottom rounded-0"
+                    placeholder="Email Address"
+                  />
+                  <div class="invalid-feedback">Please add @</div>
+                </div>
+
+                <div class="mb-3">
+                  <input
+                    type="tel"
+                    class="form-control is-invalid border-0 border-bottom rounded-0"
+                    placeholder="Phone Number"
+                  />
+                  <div class="invalid-feedback">The prefix are required</div>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <textarea
+                    id="floatingTextarea2"
+                    class="form-control border-0 border-bottom rounded-0"
+                    style="height: 100px"
+                  ></textarea>
+                  <label class="fw-lighter" for="floatingTextarea2"
+                    >Type Something</label
+                  >
+                </div>
+
+                <button type="submit" class="btn btn-outline-success">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
