@@ -1,3 +1,16 @@
+header {
+    min-height: 100px;
+}
+
+nav {
+    min-height: 100px;
+}
+
+.my-header-bgc {
+    background-color: rgb(44, 62, 79);
+}
+
+
 a {
     text-decoration: none;
     color: white;
@@ -6,7 +19,6 @@ a {
 li {
     display: inline;
 }
-
 
 
 .row {
@@ -27,20 +39,4 @@ li {
 
 footer {
     background-color: mediumslateblue;
-}
-
-.my-header-bgc {
-    background-color: rgb(44, 62, 79);
-}
-
-.my-white {
-    color: white;
-}
-
-header {
-    min-height: 100px;
-}
-
-nav {
-    min-height: 100px;
 }
