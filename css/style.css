@@ -21,26 +21,24 @@ li {
 }
 
 
-.row {
-    border: 1px dashed blue;
-}
-
-[class^='col'] {
-    border: 1px dashed blue;
-    min-height: 100px;
-}
-
-
-
 #jumbotron,
 #about {
-    background-color: aquamarine;
+    background-color:
+        rgb(25, 188, 155);
+
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-footer {
-    background-color: mediumslateblue;
+#contacts,
+#portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+.my-aquamarine {
+    color: rgb(25, 188, 155);
+}
 
 .my-border-space {
     display: inline-block;
@@ -66,4 +64,17 @@ footer {
 
 form {
     width: 50%;
+}
+
+.my-footer-bgc {
+    background-color: rgb(59, 83, 109);
+}
+
+.my-bottom-footer-bgc {
+    background-color: rgb(44, 62, 79);
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
