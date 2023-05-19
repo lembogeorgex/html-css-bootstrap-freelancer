@@ -78,3 +78,7 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.footer-bottom {
+    min-height: 70px;
+}
