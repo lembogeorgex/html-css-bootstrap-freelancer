@@ -82,3 +82,7 @@ footer {
 .footer-bottom {
     min-height: 70px;
 }
+
+textarea {
+    resize: none;
+}
